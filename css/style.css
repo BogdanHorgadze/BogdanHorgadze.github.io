@@ -229,7 +229,7 @@
 
 @media (max-width: 1143px) {
   .header .holder .text h1 {
-    font-size: 30px; } }
+    font-size: 28px; } }
 
 @media (max-width: 971px) {
   .document .holder .text span {
@@ -287,3 +287,20 @@
     margin-top: 25px; }
     .document .holder .text .none {
       font-size: 12px; } }
+
+@media (max-width: 550px) {
+  .document .holder .visual img {
+    width: 100px; }
+  .document .holder .text {
+    margin-top: 25px; }
+    .document .holder .text .none {
+      font-size: 12px; } }
+
+@media (max-width: 420px) {
+  .document .holder .visual img {
+    width: 80px; }
+  .document .holder .text {
+    margin-top: 50px; }
+    .document .holder .text .none {
+      font-size: 10px;
+      line-height: 14px; } }

@@ -506,3 +506,38 @@
     }
   }
 }
+@media (max-width: 550px) {
+  .document{
+    .holder{
+      .visual{
+        img{
+          width:100px;
+        }
+      }
+      .text{
+        margin-top:25px;
+        .none{
+          font-size:12px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 420px) {
+  .document{
+    .holder{
+      .visual{
+        img{
+          width:80px;
+        }
+      }
+      .text{
+        margin-top:50px;
+        .none{
+          font-size:10px;
+          line-height: 14px;
+        }
+      }
+    }
+  }
+}
