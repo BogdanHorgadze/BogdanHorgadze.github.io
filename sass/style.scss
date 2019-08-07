@@ -44,6 +44,20 @@
         font-size:35px;
         line-height: 36px;
       }
+      .button{
+        margin-top: 30px;
+        display: none;
+        button{
+          background: #ff8e19;
+          border:none;
+          cursor: pointer;
+          color:white;
+          font-size:15px;
+          padding:5px 12px;
+          outline: none;
+          text-transform: uppercase;
+        }
+      }
     }
   }
 }
@@ -894,13 +908,14 @@
       background: #414142;
       color:white;
       .text{
+        margin-top: 44px;
         span{
           display:none;
         }
         .none{
           display:block;
           font-size:33px;
-        	line-height: 37px;
+        	line-height: 25px;
         }
       }
     }
@@ -957,7 +972,7 @@
         }
       }
       .text{
-        margin-top:25px;
+        margin-top:40px;
         .none{
           font-size:12px;
         }
@@ -974,9 +989,20 @@
         }
       }
       .text{
-        margin-top:25px;
+        margin-top:40px;
         .none{
           font-size:12px;
+        }
+      }
+    }
+  }
+  .document{
+    .holder{
+      .text{
+        .button{
+          display: -webkit-flex;
+          display: -ms-flex;
+          display: flex;
         }
       }
     }

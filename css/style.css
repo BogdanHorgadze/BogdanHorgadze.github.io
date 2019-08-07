@@ -38,6 +38,18 @@
         display: flex;
         font-size: 35px;
         line-height: 36px; }
+      .document .holder .text .button {
+        margin-top: 30px;
+        display: none; }
+        .document .holder .text .button button {
+          background: #ff8e19;
+          border: none;
+          cursor: pointer;
+          color: white;
+          font-size: 15px;
+          padding: 5px 12px;
+          outline: none;
+          text-transform: uppercase; }
 
 .title-for-articles .holder {
   width: 60%; }
@@ -417,12 +429,14 @@
   .document .holder {
     background: #414142;
     color: white; }
-    .document .holder .text span {
-      display: none; }
-    .document .holder .text .none {
-      display: block;
-      font-size: 33px;
-      line-height: 37px; } }
+    .document .holder .text {
+      margin-top: 44px; }
+      .document .holder .text span {
+        display: none; }
+      .document .holder .text .none {
+        display: block;
+        font-size: 33px;
+        line-height: 25px; } }
 
 @media (max-width: 720px) {
   .document .holder .text .none {
@@ -445,7 +459,7 @@
   .document .holder .visual img {
     width: 100px; }
   .document .holder .text {
-    margin-top: 25px; }
+    margin-top: 40px; }
     .document .holder .text .none {
       font-size: 12px; } }
 
@@ -453,9 +467,13 @@
   .document .holder .visual img {
     width: 100px; }
   .document .holder .text {
-    margin-top: 25px; }
+    margin-top: 40px; }
     .document .holder .text .none {
-      font-size: 12px; } }
+      font-size: 12px; }
+  .document .holder .text .button {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex; } }
 
 @media (max-width: 420px) {
   .document .holder .visual img {
