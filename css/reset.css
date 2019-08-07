@@ -79,3 +79,6 @@ a{
 	margin:0 auto;
 	max-width:1700px;
 }
+.dotted{
+	border-bottom: 1px dotted white;
+}

@@ -52,8 +52,9 @@
           border:none;
           cursor: pointer;
           color:white;
-          font-size:15px;
-          padding:5px 12px;
+          font-size:20px;
+          padding:10px 28px;
+          margin-left: 20px;
           outline: none;
           text-transform: uppercase;
         }
@@ -237,9 +238,10 @@
   display: flex;
   justify-content: center;
   background: #9e9fa1;
+  padding:5px;
   span{
     color:white;
-    padding:5px;
+
   }
 }
 @media (max-width: 1697px) {
@@ -763,14 +765,14 @@
   .sponsors-title {
     .holder{
       h2{
-          font-size:17px;
+          font-size:19px;
       }
     }
   }
   .sponsors{
     .title{
       img{
-        width: 190px;
+        width: 243px;
       }
     }
   }
@@ -822,27 +824,57 @@
   }
 }
 @media (max-width: 767px) {
+  .title-for-articles{
+      .holder{
+        width:100%;
+        .title{
+
+          span{
+            font-size:19px;
+            color:#414142;
+            margin-left: 0;
+          }
+        }
+      }
+  }
   .article-1{
     .holder{
-      width:55%;
+      width:100%;
       .visual{
         display:none;
+      }
+      .descr{
+        font-size:21px;
+        line-height: 38px;
+        .title{
+          span{
+            font-size:23px;
+          }
+        }
       }
     }
   }
   .article-2{
     .holder{
-      width:55%;
+      width:100%;
       .visual{
         display:none;
+      }
+      .descr{
+        font-size:23px;
+        line-height: 38px;
       }
     }
   }
   .article-3{
     .holder{
-      width:55%;
+      width:100%;
       .visual{
         display:none;
+      }
+      .descr{
+        font-size:23px;
+        line-height: 38px;
       }
     }
   }
@@ -850,25 +882,25 @@
 @media (max-width: 605px) {
   .article-1{
     .holder{
-      width:55%;
+
       .descr{
-        font-size:10px;
+
       }
     }
   }
   .article-2{
     .holder{
-      width:55%;
+
       .descr{
-        font-size:10px;
+
       }
     }
   }
   .article-3{
     .holder{
-      width:55%;
+
       .descr{
-        font-size:10px;
+
       }
     }
   }
@@ -876,27 +908,27 @@
 @media (max-width: 553px) {
   .article-1{
     .holder{
-      width:55%;
+
       .descr{
-        font-size:11px;
+
         margin-right: 0;
       }
     }
   }
   .article-2{
     .holder{
-      width:55%;
+
       .descr{
-        font-size:11px;
+
         margin-right: 0;
       }
     }
   }
   .article-3{
     .holder{
-      width:55%;
+
       .descr{
-        font-size:11px;
+
         margin-right: 0;
       }
     }
@@ -915,7 +947,7 @@
         .none{
           display:block;
           font-size:33px;
-        	line-height: 37px;
+        	line-height: 27px;
         }
       }
     }
@@ -1002,15 +1034,36 @@
       .text{
         margin-top:40px;
         .none{
-          font-size:12px;
+          font-size:17px;
         }
       }
     }
   }
 }
 @media (max-width: 420px) {
-  .document{
+  .header{
+    padding-top: 40px;
+  }
+  .sponsors-title{
     .holder{
+      max-width:95%;
+    }
+  }
+  .content{
+    background: #eeeeee;
+    padding-bottom: 30px;
+  }
+.header{
+  padding-bottom:35px;
+  background: #eeeeee;
+  .holder{
+
+  }
+}
+  .document{
+    margin-top: 0;
+    .holder{
+      max-width:100%;
       .visual{
         img{
           width:80px;
@@ -1019,9 +1072,58 @@
       .text{
         margin-top:50px;
         .none{
-          font-size:10px;
-          line-height: 14px;
+          font-size:19px;
+          line-height: 20px;
         }
+      }
+    }
+  }
+  .title-for-articles{
+    .holder{
+      max-width:100%;
+      .title{
+        padding-top: 46px;
+        padding-left: 20px;
+      }
+    }
+  }
+  .article-1{
+    .holder{
+      max-width:100%;
+      .descr{
+        font-size:15px;
+        margin-left: 7px;
+        line-height: 25px;
+        .title{
+          span{
+            font-size:15px;
+          }
+        }
+        .text{
+          span{
+            display: inline;
+          }
+        }
+      }
+    }
+  }
+  .article-2{
+    .holder{
+      max-width:100%;
+      .descr{
+        font-size:15px;
+        margin-left: 7px;
+        line-height: 24px;
+      }
+    }
+  }
+  .article-3{
+    .holder{
+      max-width:100%;
+      .descr{
+        font-size:15px;
+        margin-left: 7px;
+        line-height: 24px;
       }
     }
   }
@@ -1036,7 +1138,7 @@
       }
       .text{
         .none{
-          font-size:27px;
+          font-size:31px;
         }
       }
     }
@@ -1053,6 +1155,19 @@
       .text{
         .none{
           font-size:25px;
+          font-style:italic;
+          color:#414142;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 336px) {
+  .document{
+    .holder{
+      .text{
+        .none{
+          font-size:17px;
         }
       }
     }

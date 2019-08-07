@@ -46,8 +46,9 @@
           border: none;
           cursor: pointer;
           color: white;
-          font-size: 15px;
-          padding: 5px 12px;
+          font-size: 20px;
+          padding: 10px 28px;
+          margin-left: 20px;
           outline: none;
           text-transform: uppercase; }
 
@@ -176,10 +177,10 @@
   display: -ms-flex;
   display: flex;
   justify-content: center;
-  background: #9e9fa1; }
+  background: #9e9fa1;
+  padding: 5px; }
   .footer span {
-    color: white;
-    padding: 5px; }
+    color: white; }
 
 @media (max-width: 1697px) {
   .header .holder .text h1 {
@@ -360,9 +361,9 @@
   .about-author {
     display: none; }
   .sponsors-title .holder h2 {
-    font-size: 17px; }
+    font-size: 19px; }
   .sponsors .title img {
-    width: 190px; }
+    width: 243px; }
   .sponsors .holder .text span {
     font-size: 15px; } }
 
@@ -381,49 +382,43 @@
     font-size: 11px; } }
 
 @media (max-width: 767px) {
+  .title-for-articles .holder {
+    width: 100%; }
+    .title-for-articles .holder .title span {
+      font-size: 19px;
+      color: #414142;
+      margin-left: 0; }
   .article-1 .holder {
-    width: 55%; }
+    width: 100%; }
     .article-1 .holder .visual {
       display: none; }
+    .article-1 .holder .descr {
+      font-size: 21px;
+      line-height: 38px; }
+      .article-1 .holder .descr .title span {
+        font-size: 23px; }
   .article-2 .holder {
-    width: 55%; }
+    width: 100%; }
     .article-2 .holder .visual {
       display: none; }
-  .article-3 .holder {
-    width: 55%; }
-    .article-3 .holder .visual {
-      display: none; } }
-
-@media (max-width: 605px) {
-  .article-1 .holder {
-    width: 55%; }
-    .article-1 .holder .descr {
-      font-size: 10px; }
-  .article-2 .holder {
-    width: 55%; }
     .article-2 .holder .descr {
-      font-size: 10px; }
+      font-size: 23px;
+      line-height: 38px; }
   .article-3 .holder {
-    width: 55%; }
+    width: 100%; }
+    .article-3 .holder .visual {
+      display: none; }
     .article-3 .holder .descr {
-      font-size: 10px; } }
+      font-size: 23px;
+      line-height: 38px; } }
 
 @media (max-width: 553px) {
-  .article-1 .holder {
-    width: 55%; }
-    .article-1 .holder .descr {
-      font-size: 11px;
-      margin-right: 0; }
-  .article-2 .holder {
-    width: 55%; }
-    .article-2 .holder .descr {
-      font-size: 11px;
-      margin-right: 0; }
-  .article-3 .holder {
-    width: 55%; }
-    .article-3 .holder .descr {
-      font-size: 11px;
-      margin-right: 0; } }
+  .article-1 .holder .descr {
+    margin-right: 0; }
+  .article-2 .holder .descr {
+    margin-right: 0; }
+  .article-3 .holder .descr {
+    margin-right: 0; } }
 
 @media (max-width: 731px) {
   .document .holder {
@@ -436,7 +431,7 @@
       .document .holder .text .none {
         display: block;
         font-size: 33px;
-        line-height: 37px; } }
+        line-height: 27px; } }
 
 @media (max-width: 720px) {
   .document .holder .text .none {
@@ -473,25 +468,72 @@
   .document .holder .text {
     margin-top: 40px; }
     .document .holder .text .none {
-      font-size: 12px; } }
+      font-size: 17px; } }
 
 @media (max-width: 420px) {
-  .document .holder .visual img {
-    width: 80px; }
-  .document .holder .text {
-    margin-top: 50px; }
-    .document .holder .text .none {
-      font-size: 10px;
-      line-height: 14px; } }
+  .header {
+    padding-top: 40px; }
+  .sponsors-title .holder {
+    max-width: 95%; }
+  .content {
+    background: #eeeeee;
+    padding-bottom: 30px; }
+  .header {
+    padding-bottom: 35px;
+    background: #eeeeee; }
+  .document {
+    margin-top: 0; }
+    .document .holder {
+      max-width: 100%; }
+      .document .holder .visual img {
+        width: 80px; }
+      .document .holder .text {
+        margin-top: 50px; }
+        .document .holder .text .none {
+          font-size: 19px;
+          line-height: 20px; }
+  .title-for-articles .holder {
+    max-width: 100%; }
+    .title-for-articles .holder .title {
+      padding-top: 46px;
+      padding-left: 20px; }
+  .article-1 .holder {
+    max-width: 100%; }
+    .article-1 .holder .descr {
+      font-size: 15px;
+      margin-left: 7px;
+      line-height: 25px; }
+      .article-1 .holder .descr .title span {
+        font-size: 15px; }
+      .article-1 .holder .descr .text span {
+        display: inline; }
+  .article-2 .holder {
+    max-width: 100%; }
+    .article-2 .holder .descr {
+      font-size: 15px;
+      margin-left: 7px;
+      line-height: 24px; }
+  .article-3 .holder {
+    max-width: 100%; }
+    .article-3 .holder .descr {
+      font-size: 15px;
+      margin-left: 7px;
+      line-height: 24px; } }
 
 @media (max-width: 463px) {
   .header .holder .logo img {
     width: 100px; }
   .header .holder .text .none {
-    font-size: 27px; } }
+    font-size: 31px; } }
 
 @media (max-width: 352px) {
   .header .holder .logo img {
     width: 80px; }
   .header .holder .text .none {
-    font-size: 25px; } }
+    font-size: 25px;
+    font-style: italic;
+    color: #414142; } }
+
+@media (max-width: 336px) {
+  .document .holder .text .none {
+    font-size: 17px; } }
