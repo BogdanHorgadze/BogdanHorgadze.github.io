@@ -915,7 +915,7 @@
         .none{
           display:block;
           font-size:33px;
-        	line-height: 25px;
+        	line-height: 37px;
         }
       }
     }
@@ -927,6 +927,17 @@
       .text{
         .none{
           font-size:23px;
+        }
+      }
+    }
+  }
+  .document{
+    .holder{
+      .text{
+        .button{
+          display: -webkit-flex;
+          display: -ms-flex;
+          display: flex;
         }
       }
     }
@@ -992,17 +1003,6 @@
         margin-top:40px;
         .none{
           font-size:12px;
-        }
-      }
-    }
-  }
-  .document{
-    .holder{
-      .text{
-        .button{
-          display: -webkit-flex;
-          display: -ms-flex;
-          display: flex;
         }
       }
     }
