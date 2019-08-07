@@ -457,7 +457,7 @@
     display: none; }
   .header .holder .text .none {
     display: flex;
-    font-size: 40px; } }
+    font-size: 37px; } }
 
 @media (max-width: 550px) {
   .document .holder .visual img {
@@ -488,7 +488,7 @@
   .header .holder .logo img {
     width: 100px; }
   .header .holder .text .none {
-    font-size: 30px; } }
+    font-size: 27px; } }
 
 @media (max-width: 352px) {
   .header .holder .logo img {
