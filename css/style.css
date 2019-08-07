@@ -181,13 +181,19 @@
   .header .holder .text h1 {
     font-size: 58px; } }
 
-@media (max-width: 1646px) {
+@media (max-width: 1647px) {
   .article-1 .holder {
     width: 51%; }
+    .article-1 .holder .descr {
+      margin-right: 0; }
   .article-2 .holder {
     width: 51%; }
+    .article-2 .holder .descr {
+      margin-right: 0; }
   .article-3 .holder {
-    width: 51%; } }
+    width: 51%; }
+    .article-3 .holder .descr {
+      margin-right: 0; } }
 
 @media (max-width: 1588px) {
   .document .holder .text span {
@@ -273,3 +279,11 @@
   .header .holder .text .none {
     display: flex;
     font-size: 40px; } }
+
+@media (max-width: 550px) {
+  .document .holder .visual img {
+    width: 100px; }
+  .document .holder .text {
+    margin-top: 25px; }
+    .document .holder .text .none {
+      font-size: 12px; } }

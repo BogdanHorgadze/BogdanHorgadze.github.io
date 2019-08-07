@@ -489,3 +489,20 @@
     }
   }
 }
+@media (max-width: 550px) {
+  .document{
+    .holder{
+      .visual{
+        img{
+          width:100px;
+        }
+      }
+      .text{
+        margin-top:25px;
+        .none{
+          font-size:12px;
+        }
+      }
+    }
+  }
+}
