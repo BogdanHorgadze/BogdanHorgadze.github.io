@@ -473,8 +473,10 @@
 @media (max-width: 420px) {
   .header {
     padding-top: 40px; }
-  .sponsors-title .holder {
-    max-width: 95%; }
+  .sponsors-title {
+    padding-top: 30px; }
+    .sponsors-title .holder {
+      max-width: 95%; }
   .content {
     background: #eeeeee;
     padding-bottom: 30px; }
